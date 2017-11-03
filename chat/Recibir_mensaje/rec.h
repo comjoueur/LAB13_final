@@ -5,7 +5,6 @@
 #include<stdio.h>
 #include<winsock2.h>
 #include<iostream>
-#include <thread>
 using namespace std;
 class mensaje{
     public:
