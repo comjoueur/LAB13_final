@@ -18,7 +18,7 @@ int main(){
     // If iMode!=0, non-blocking mode is enabled.
     u_long iMode=1;
     ioctlsocket(s.s,FIONBIO,&iMode);
-    // Enciar Mensaje
+    // Enviar Mensaje
     while(true){
         send_msg(s.s);
     }
